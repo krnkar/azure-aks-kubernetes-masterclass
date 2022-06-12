@@ -175,7 +175,7 @@ ssh-keygen \
     -t rsa \
     -b 4096 \
     -C "azureuser@myserver" \
-    -f ~/ssh-keys-teerraform-aks-devops/aks-terraform-devops-ssh-key-ububtu \
+    -f ~/.ssh/terraform-az-devops/aks-terraform-devops-ssh-key-ubuntu
 
 Note: We will have passphrase as : empty when asked
 
